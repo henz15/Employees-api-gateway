@@ -5,6 +5,11 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>Employees_api_gateway</RootNamespace>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Ocelot" Version="18.0.0" />
+    </ItemGroup>
 
 </Project>
